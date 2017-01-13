@@ -1,10 +1,12 @@
 /*this is  my stylesheet for the homepage */
 
-*{outline: 1px solid red;}
+
 
 /*header style */
-header h1{color: red; background-color: yellow;}
-nav{}
+header h1{color: #DEF0F5; background-color: #2A3959;}
+nav{padding: center
+
+ }
   h1{font-family:cursive;}
 /*table of contents style */
 
