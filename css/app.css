@@ -1,13 +1,88 @@
 /*this is  my stylesheet for the homepage */
 
+.nav{
+
+margin-top: 5px;
+  text-align:center;
+border: solid #3B4957;
+margin-bottom: 50px;
+font-size: 200%
+
+}
 
 
+.tm{
+  text-align:center;
+
+  margin-bottom: auto;
+}
+.photo{
+  text-align:center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+body{
+  background-image: url(../image/project1/night.jpg);
+   background-repeat:repeat-y;
+　　 background-repeat:repeat-x;
+　　 background-repeat:no-repeat;
+     background-size: cover;
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    color:white;
+
+    font-size: 500%;
+    margin-bottom: 50px;
+    text-align:center;
+    font-style: italic;
+  text-shadow: 2px 2px 2px pink;
+
+  }
+  h2{
+    font-family: 'Bangers', cursive;
+    color:white;
+    font-style: italic;
+  text-shadow:  pink;
+  }
+h3{
+    font-family: 'Bangers', cursive;
+    color:black;
+    font-style: italic;
+  text-shadow:  pink;
+    text-align:center;
+    margin-top: 100px;
+  }
+  h4{
+    margin-top: 100px;
+    font-family: 'Bangers', cursive;
+    color:white;
+    font-style: italic;
+  text-shadow:  pink;
+  text-align:center;
+  }
+h6{
+  margin-top: 50px;
+  font-family: 'Bangers', cursive;
+  color:white;
+  font-style: italic;
+text-shadow:  pink;
+}
+  img{
+    border:5px solid white;
+  }
 /*header style */
-header h1{color: #DEF0F5; background-color: #2A3959;}
-nav{padding: center
 
- }
-  h1{font-family:cursive;}
+
+p{
+  font-family: 'Bangers', cursive;
+  color:white;
+  font-size:150%
+
+}
+
 /*table of contents style */
 
 /*main body style */

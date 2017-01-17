@@ -12,18 +12,73 @@
 
   <div class="wrapper">
   <header class="row">
-    <h1>logo</h1>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="pro.html"> Portfolio</a>
-      <a href="about.html">About</a>
-    </nav>
+    <div class="column large-4 medium-4 nav">
+      <a href="index.html" > Home</a>
+  </div>
+    <div class="column large-4  medium-4 nav ">
+      <a href="pro.html" > Portfolio</a>
+
+    </div>
+      <div class="column large-4  medium-4 nav ">
+          <a href="about.html" > About</a>
+</div>
+
+<h1 class="columns small-12 medium-12 large-12"> Welcome to Qingdi's about Page </h1>
+
+</header>
+
+<div class="row">
+
+  <div class="column large-4 medium-4photo ">
+  <img src="image/project1/my.jpg"  />
+  </div>
+  <div class="column large-8 medium-8text ">
+  <p>MY name is Qingdi Hu born in 1993 Hangzhong China,  I am a student of CSUEB.</P>
+    <p>
+      Seeking for a cameraman assistant position.
+    </p>
+    <p>
+      Summer Intern: I were work in Tira photo stuio in China, I were assisted lead sports photographer. Selected and assembled equipment according to subject material, anticipated conditions. Gained valuable knowledge of function and limitations of various types of cameras, lenses, and films.
+
+    </p>
+
+
+  </div>
+</div>
+
+
+<script language="JavaScript">
+    var myDate = new Date();
+    /* hour is before noon */
+    if ( myDate.getHours() < 12 )
+    {
+        document.getElementById('greeting').innerHTML = "Good Morning!";
+    }
+    else  /* Hour is from noon to 5pm (actually to 5:59 pm) */
+    if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 )
+    {
+        document.getElementById('greeting').innerHTML = "Good Afternoon!";
+    }
+    else  /* the hour is after 5pm, so it is between 6pm and midnight */
+    if ( myDate.getHours() > 17 && myDate.getHours() <= 24 )
+    {
+       document.getElementById('greeting').innerHTML = "Good Evening!";
+    }
+    else  /* the hour is not between 0 and 24, so something is wrong */
+    {
+        document.getElementById('greeting').innerHTML = "I'm not sure what time it is!";
+    }
+    /* remove the following in your live script. It is for testing */
+    document.write("<br /><br /> The hour is: ")
+    document.write( myDate.getHours() );
+    </script>
+
+
+
   </header>
-
-  <footer class="row">
-  <h6>copyright2017 all right reserveds</h6>
-
+<footer>
+    <h6>&copy; 2017 Qingdi Hu Web Design 3870</h6>
   </footer>
   </div>
 
