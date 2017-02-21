@@ -1,0 +1,61 @@
+img{
+  animation:5s linear infinite CDturn;
+  position: absolute;
+  margin-left: 500px;
+  top: 300px;
+}
+
+.music-note,#one{
+position: absolute;
+margin-left: 500px;
+margin-top: 100px;
+  animation: note-anim  3.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#two{
+margin-left: 900px;
+margin-top: 0px;
+  animation: note-anim  5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note {
+    position: absolute;
+    font-size: 150px;
+    color: gold;
+
+  }
+
+  @keyframes CDturn{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+  }
+@-webkit-keyframes note-anim
+
+  {
+0% {
+  opacity: 0;
+
+  transform: translate(0px,50px);
+  font-size: 150px;
+}
+30% {
+
+  transform:rotate(12deg) translate(-30px,0px);
+font-size:200px;
+}
+45% {
+  opacity: 0.8;
+}
+60% {
+
+  transform:rotate(-12deg) translate(30px,-100px) ;
+font-size:300px;
+}
+100% {
+  opacity: 0.5;
+
+  transform:rotate(0deg) translate(0px,-200px);
+  font-size:200px;
+}
