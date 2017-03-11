@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+<title>happly valentines day</title>
+</head>
+<body>
+<style media="screen">
+  #bird{
+    height:175px;
+    width:175px;
+text-indent:-100%;
+    border:1px solid red;
+    background: url("image/pock.png") 0 0 no-repeat;
+  }
+  #bird:hover{
+    background: url("image/pock.png") -175px 0 no-repeat;
+  }
+  #bird:active{
+    background: url("image/pock.png") -350px 0 no-repeat;
+  }
+  #heart{border: 1px solid red;
+    height:200px;
+    width:200px;
+    background: url("image/heart.png") 0 0 no-repeat;
+    animation: heart 1s steps(6) infinite;
+  }
+    @keyframes heart {
+      0%{}
+        100%{background-position: -1200px}
+    }
+
+</style>
+
+<h1 id="heart">
+
+</h1>
+
+
+
+
+
+<h1 id="bird">
+bird
+</h1>
+<h1 id="name"> hello</h1>
+
+
+  <script type="text/javascript">
+
+
+  var myURL = window.location.search;
+  var queryString = myURL.substring(1).split('=');
+  var name = queryString[1];
+  //console.log(name);
+  document.getElementById("name").innerHTML = "happly valentines day,  "+  name +"!" ;
+    </script>
+
+
+
+</body>
+</html>
