@@ -1,0 +1,106 @@
+#wrapper{
+  width:10001px;
+  height:800px;
+
+  position:relative;
+  margin:0 auto;
+  top:200px;
+}
+li{
+  font-size: 200%
+}
+.text1{
+display: none;
+  padding-top: 240px;
+
+  padding-left: 800px;
+}
+.text2{
+
+
+
+  padding-left: 800px;
+}
+.text3{
+
+padding-top: 240px;
+
+  padding-left: 800px;
+}
+.text4{
+
+padding-top: 240px;
+
+  padding-left: 1200px;
+}
+.frist{
+
+    width:2000px;
+    height:800px;
+  position:absolute;
+}
+.second{
+margin-left: 2000px;
+
+  width:2000px;
+  height:800px;
+position:absolute;
+}
+.third{
+  margin-left: 4000px;
+
+    width:2000px;
+    height:800px;
+  position:absolute;
+
+}
+.fourth{
+  margin-left: 6000px;
+
+    width:2000px;
+    height:800px;
+  position:absolute;
+
+}
+.fifth{
+  margin-left: 8000px;
+
+    width:2000px;
+    height:800px;
+  position:absolute;
+
+}
+img{
+
+  position:absolute;
+}
+#mubei{padding-left: 800px;
+display: none;}
+#one{
+    top:10px;
+    left:50px;}
+#two{
+    top:50px;
+    left:150px;
+  display: none;}
+#three{
+    top:260px;
+    left:250px;
+}
+#four{
+display: none;
+}
+#five{
+
+
+}
+#six
+{display:none;
+  top:240px
+}
+#seven
+{
+  display:none;
+    top:350px;
+
+}
