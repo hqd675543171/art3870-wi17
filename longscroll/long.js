@@ -70,7 +70,7 @@ $("#seven").css({"display":"none"
 
 });
   }
-  if(fromLeft >= 4650 ){
+  if(fromLeft >= 4800){
     console.log("oh, you have scrolled so far, you must be tired!");
     $("#five").css({
         "display":"none"
@@ -88,7 +88,7 @@ $("#seven").css({"display":"none"
 
     console.log("going backwards, are we?");
 
-    $("#seven").css({"left" : 100 + fromLeft * 1.5 + "px"
+    $("#seven").css({"left" : 700 + fromLeft * 1.3 + "px"
 });
  }
 
