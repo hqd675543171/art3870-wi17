@@ -1,0 +1,77 @@
+.wapper{
+  height: 1200px;
+  width: 1200px;
+  position: absolute;
+}
+.music-note,#one{
+position: absolute;
+margin-left: 500px;
+margin-top: 300px;
+  animation: note-anim1  1s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#two{
+margin-left: 600px;
+margin-top: 300px;
+  animation: note-anim1  0.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#three{
+margin-left: 700px;
+margin-top: 300px;
+  animation: note-anim1  2s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#four{
+margin-left: 800px;
+margin-top: 300px;
+  animation: note-anim1 1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#five{
+margin-left: 900px;
+margin-top: 300px;
+  animation: note-anim1  0.3s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#six{
+margin-left: 1000px;
+margin-top: 300px;
+  animation: note-anim1  2s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#seven{
+margin-left: 1100px;
+margin-top: 300px;
+  animation: note-anim1  0.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#four{
+margin-left: 800px;
+margin-top: 300px;
+  animation: note-anim1  3s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note {
+    position: absolute;
+    font-size: 120px;
+    color:black;
+
+
+  }
+  @-webkit-keyframes note-anim1
+
+  {
+    0%,20%,50%,100%{-webkit-transform:translateY(0);}
+    40%{-webkit-transform:translateY(-300px); color: gold;}
+    60%{-webkit-transform:translateY(-50px); color:gold;}
+    80%{-webkit-transform:translateY(-5px);}
+}

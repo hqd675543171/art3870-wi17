@@ -1,0 +1,138 @@
+
+.music-note,#one{
+position: absolute;
+margin-left: 1000px;
+margin-top: 300px;
+  animation: note-anim1  1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#two{
+margin-left: 1000px;
+margin-top: 100px;
+  animation: note-anim2  1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#four{
+margin-left: 1000px;
+margin-top: 200px;
+  animation: note-anim5 1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#three{
+margin-left: 1150px;
+margin-top: 200px;
+  animation: note-anim3  1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#five{
+margin-left: 850px;
+margin-top: 200px;
+  animation: note-anim4 1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+
+.music-note {
+    position: absolute;
+    font-size: 150px;
+    color:black;
+
+  }
+  @-webkit-keyframes note-anim1
+
+  {
+  0%,30% ,50% {
+    opacity: 1;
+    transform: scale(1, 1) translateY(0);
+  }
+20%,40%
+   {
+    opacity: 1;
+    transform: scale(3, 3) translateY(0);color:red;
+  }
+
+  80% {
+    opacity: 1;
+    transform: scale(3, 3) translateY(50%); color:gold;;
+  }
+}
+@-webkit-keyframes note-anim2
+
+{
+0%,30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateY(0);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateY(0);color:red;
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) translateY(-50%); color:gold;
+
+}
+}
+@-webkit-keyframes note-anim3
+
+{
+0%,30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateX(0);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateX(0);color:red;
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) translateX(50%); color:gold;
+
+}
+}
+@-webkit-keyframes note-anim4
+
+{
+0%,30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateX(0);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateX(0);color:red;
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) translateX(-50%); color:gold;
+
+}
+}
+@-webkit-keyframes note-anim5
+
+{
+0%,30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateX(0);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateX(0);color:red;
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) ; color:gold;
+
+}
+}
