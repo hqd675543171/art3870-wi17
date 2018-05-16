@@ -1,9 +1,9 @@
 .view {
-   width: 300px;
-   height: 200px;
-   margin: 10px;
-   float: left;
+   width: 100px;
+   height: 150px;
    
+   float: left;
+
    overflow: hidden;
    position: relative;
    text-align: center;
@@ -11,11 +11,11 @@
    -moz-box-shadow: 1px 1px 2px #e6e6e6;
    box-shadow: 1px 1px 2px #e6e6e6;
    cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
+
 }
 .view .mask,.view .content {
-   width:300px;
-   height: 200px;
+   width:250px;
+   height: 150px;
    position: absolute;
    overflow: hidden;
    top: 0;

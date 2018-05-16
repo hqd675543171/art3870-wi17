@@ -1,17 +1,20 @@
 /*this is  my stylesheet for the homepage */
 footer{
   margin-top: 50px;
-  background-color: black;
+background: url("../image/universe.jpg");
   text-align: center;
   padding: 10px;
 }
 body{
-  background-color:black;
+
+   background:black;
 }
+
 .nav{
 
-background-color: black;
+background: url("../image/universe.jpg");
   text-align:center;
+  margin-bottom: 20px;
 
 font-family: 'Audiowide', cursive;}
 
@@ -59,10 +62,7 @@ a{
 .main{
   background-color: #c6c3b4;
 }
-body{
-  background-color:  white;
-  Center;
-}
+
 
 .footer{
   background-color: white;
@@ -82,7 +82,8 @@ img {
 
 .expand-column-wrapper {
   height: 100vh;
-  max-wdtih: 75rem;
+  width:200vh;
+  margin-top: 20px;
 }
 
 .expand-column-wrapper .column {
@@ -116,7 +117,7 @@ img {
   transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 60em) {
   .expand-column-wrapper {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -126,37 +127,38 @@ img {
 
 .expand-column-wrapper .column:nth-of-type(1) {
   background: url("../image/old.jpg") center center no-repeat;
-  height: 100vh;
+  height: 80vh;
+  
   background-size: cover;
 }
 
 .expand-column-wrapper .column:nth-of-type(2) {
   background: url("../image/design.png") center center no-repeat;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 }
 
 .expand-column-wrapper .column:nth-of-type(3) {
   background: url("../image/inbox.png") center center no-repeat;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 }
 
 .expand-column-wrapper .column:nth-of-type(4) {
   background: url("../image/menu.jpg") center center no-repeat;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 }
 
 .expand-column-wrapper .column:nth-of-type(5) {
   background: url("../image/robot1.png") center center no-repeat;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 }
 
 .expand-column-wrapper .column:nth-of-type(6) {
   background: url("https://images.pexels.com/photos/2156/sky-earth-space-working.jpg") center center no-repeat;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 }
 
